@@ -1,0 +1,17 @@
+{
+  "token": "",
+  "prefix": "<@706346679263035392>",
+  "ksoftapi": "",
+  "youtubeCookie": "",
+  "spotify_api": {
+        "enabled": false, "_COMMENT_": "Set it to false, if you want to scrape, when on true you can get spotify playlists with 100+ Tracks",
+        "clientSecret": "",
+        "clientId": "706346679263035392"
+  },
+   "status": {
+      "text": "Ameliabot.dev | ⛺ /info help",
+      "type": "STREAMING",
+      "url": "https://twitch.tv/#"
+   },
+  "loadSlashsGlobal": true, "_COMMENT_": "Set it to true, when your Slash Commands are ready, false loads instant true loads slow but stable! (GLOBAL/GUILD COMMANDS, DISCORD DOCS!)"
+}

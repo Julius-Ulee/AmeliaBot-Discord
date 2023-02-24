@@ -1,0 +1,55 @@
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="icon" type="image/png" href="<%= botClient.user.displayAvatarURL({size: 128}) %>">
+<link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
+
+    <nav class="navbar navbar-expand-lg justify-content-center navbar-dark" style="background-color: #1c0522;">
+        <div class="container">
+            <a class="navbar-brand" href="/" style="text-decoration: none;color:white">
+                <img src="<%= botClient.user.displayAvatarURL({size: 4096}) %>" alt="Logo"
+                class="d-inline-block align-top"
+                >
+            </a> <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="/commands">Commands</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=<%= botClient.user.id %>&permissions=8&scope=bot%20applications.commands" target="_blank">
+                        <b>Invite</b>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="<%= bot.support %>" target="_blank"><c>Support</c></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/dashboard"><d>Servers</d></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/queuedashboard"><e>Queues</e></a>
+                </li>
+            </ul>
+            <ul class="nav navbar-right">
+                <li class="nav-item" >
+                    <% if(user && user.id) { %>
+                        <button class="btn btn-danger btn-sm" 
+                        style="letter-spacing: 0.1em;font-weight: 750;width: 100%;"
+                        onclick="location.href='/logout'" type="button"><img src="https://cdn.discordapp.com/avatars/<%=user.id%>/<%=user.avatar%>.png", style="width: 50px;margin-bottom:3%; clip-path:circle();"alt="LOGO"> Logout!</button>
+                    <% }else { %>
+                        <button class="btn btn-success btn-sm" 
+                        style="letter-spacing: 0.1em;font-weight: 750;width: 100%;"
+                        onclick="location.href='/login'" type="button"><span class="iconify" data-icon="simple-icons:discord"></span> Login</button>
+                    <% }%>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    let myParam = urlParams.get('error');
+    if(myParam) alert(myParam);
+    myParam = urlParams.get('success');
+    if(myParam) alert(myParam);
+</script>
