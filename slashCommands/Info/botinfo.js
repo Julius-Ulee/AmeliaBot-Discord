@@ -44,7 +44,7 @@ module.exports = {
 
                     const botinfo = new MessageEmbed()
                         .setAuthor(client.user.tag + " Information", ee.footericon, `https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands`)
-                        .setDescription(`\`\`\`yml\nName: ${client.user.tag} [${client.user.id}]\nBot Latency: ${Math.floor((Date.now() - createdTimestamp) - 2 * Math.floor(client.ws.ping))}ms\nApi Latency: ${Math.round(client.ws.ping)}ms\nRuntime: ${duration(client.uptime).join(`, `)}\`\`\``)
+                        .setDescription(`\`\`\`yml\nName: ${client.user.tag} [${client.user.id}]\nApi Latency: ${Math.round(client.ws.ping)}ms\nRuntime: ${duration(client.uptime).join(`, `)}\`\`\``)
                         .setColor(ee.color).setThumbnail(client.user.displayAvatarURL())
                         .addField("📚 General -- Stats", `\`\`\`yml\nServers: ${client.guilds.cache.size}\nVoice-Channels: ${client.channels.cache.filter((ch) => ch.type === "GUILD_VOICE" || ch.type === "GUILD_STAGE_VOICE").size}\nUsers: ${Math.ceil(client.users.cache.size/1000)}k\nConnections: ${connectedchannelsamount}\`\`\``,true)
                         .addField("👾 Bot -- Stats", `\`\`\`yml\nNode.js: ${process.version}\nDiscord.js: v${Discord.version}\nEnmap: v5.8.4\`\`\``,true)
@@ -66,7 +66,7 @@ module.exports = {
                     if (connectedchannelsamount > client.guilds.cache.size) connectedchannelsamount = client.guilds.cache.size;
                     const botinfo = new MessageEmbed()
                         .setAuthor(client.user.tag + " Information", ee.footericon, `https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands`)
-                        .setDescription(`\`\`\`yml\nName: ${client.user.tag} [${client.user.id}]\nBot Latency: ${Math.floor((Date.now() - createdTimestamp) - 2 * Math.floor(client.ws.ping))}ms\nApi Latency: ${Math.round(client.ws.ping)}ms\nRuntime: ${duration(client.uptime).join(`, `)}\`\`\``)
+                        .setDescription(`\`\`\`yml\nName: ${client.user.tag} [${client.user.id}]\nApi Latency: ${Math.round(client.ws.ping)}ms\nRuntime: ${duration(client.uptime).join(`, `)}\`\`\``)
                         .setColor(ee.color).setThumbnail(client.user.displayAvatarURL())
                         .addField("📚 General -- Stats", `\`\`\`yml\nServers: ${client.guilds.cache.size}\nVoice-Channels: ${client.channels.cache.filter((ch) => ch.type === "GUILD_VOICE" || ch.type === "GUILD_STAGE_VOICE").size}\nUsers: ${Math.ceil(client.users.cache.size/1000)}k\nConnections: ${connectedchannelsamount}\`\`\``,true)
                         .addField("👾 Bot -- Stats", `\`\`\`yml\nNode.js: ${process.version}\nDiscord.js: v${Discord.version}\nEnmap: v5.8.4\`\`\``,true)
