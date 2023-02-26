@@ -49,5 +49,4 @@
 
 # Credits
 
-> If consider using this Bot, make sure to credit me!
-
+![Source](https://github.com/Tomato6966/Musicium) 
