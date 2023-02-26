@@ -41,7 +41,7 @@
 <br/>
   
 
-## [Discord Server 😎](https://discord.gg/milrato) | [Website](https://Amelia.uzumekiulee.repl.co)
+## [Discord Server 😎](https://discord.gg/VzUR95y) | [Website](https://ameliabot.dev)
 <a href="https://discord.gg/VzUR95y"><img src="https://invidget.switchblade.xyz/VzUR95y" /></a>
 
 ***
