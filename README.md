@@ -49,4 +49,4 @@
 
 # Credits
 
-[Tomato6969](https://github.com/Tomato6966/Musicium) 
+> [Tomato6969](https://github.com/Tomato6966/Musicium) 
