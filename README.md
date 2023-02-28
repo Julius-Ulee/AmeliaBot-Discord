@@ -1,10 +1,27 @@
-# Amelia
+<div align="center" style"border-radius:15px">
+  <a href="https://discord.gg/VzUR95y" title="Discord Server" target="_blank">
+    <img src="https://cdn.discordapp.com/attachments/706347774572232755/794185894265487360/20201229_162908.jpg" style"width: 100%;border-radius:15px">
+  </a>
+</div>
 
+<h1 align="center">🎉Hey it's me Amelia!</h1>
+<h1 align="center">Amelia The Best Music Bot with the Best, Highest Quality you ever used!</h1>
 
-***
+![Amelia](https://discord.c99.nl/widget/theme-2/706346679263035392.png)
 
-![Dev](https://media.discordapp.net/attachments/716751195603206166/775639764610711592/f0f0d932d6e39c7af5aa305cbd8da735.gif)
+<img align="right" alt="GIF" src="https://media.discordapp.net/attachments/716751195603206166/775639764610711592/f0f0d932d6e39c7af5aa305cbd8da735.gif">
 
+## 🛠Features
+> - Dashboard with Live Queue Control System
+> - Crips and High Quality, thanks to FFMPEG based Audio streaming
+> - A ton of Music-based Commands, including over 30 Filters!
+> - Default Music values like: `volume`, `filter`, `equalizer`, `autoplay`, ...
+> - DJ-System
+> - Stable & Up to date with discord.js v13
+> - Suport 1700 music sources + Stage & Thread Channels
+> - You can set `prefix`, `default volume`, `dj roles`, `Whitelisted Bot-Channels` and `Default Filters` on the [website](https://ameliabot.dev)
+> - Works on Replit.com and any vps
+> - And more!
 ***
 
 ## Installation Guide (Hosting)
