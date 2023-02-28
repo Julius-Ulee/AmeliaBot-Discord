@@ -23,6 +23,9 @@ module.exports = {
           new MessageEmbed().setColor(ee.color)
           .setFooter(ee.footertext, ee.footericon)
           .setDescription(`**SOURCE CODE** :heart:\n\n[Link to Source](https://github.com/Julius-Ulee/AmeliaBot-Discord)`)
+          .setThumbnail(ee.footericon)
+          .setImage("https://discord.c99.nl/widget/theme-2/706346679263035392.png")
+          .setTimestamp()
         ]
       });
     } catch (e) {
