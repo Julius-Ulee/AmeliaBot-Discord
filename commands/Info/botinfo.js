@@ -44,6 +44,7 @@ module.exports = {
                         .addField("👾 Bot -- Stats", `\`\`\`yml\nNode.js: ${process.version}\nDiscord.js: v${Discord.version}\nEnmap: v5.8.4\`\`\``,true)
                         .addField("🤖 System -- Stats",`\`\`\`yml\nOS: ${os.platform()} | Debian\nCPU: ${os.cpus().map((i) => `${i.model}`)[0]}\nCPU Usage: ${percent.toFixed(2)} %\nRAM Usage: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB\nArch: ${os.arch()}\`\`\``)
                         .addField("👑 Developer", `\`\`\`yml\nName: ✗Julius Ulee✗#5323\nID: [385442265302302721]\`\`\``, true)
+                        .setImage("https://discord.c99.nl/widget/theme-2/385442265302302721.png")
         .setTimestamp()
         .setFooter(ee.footertext, ee.footericon);
                     tempmsg.edit({
@@ -66,6 +67,7 @@ module.exports = {
                         .addField("👾 Bot -- Stats", `\`\`\`yml\nNode.js: ${process.version}\nDiscord.js: v${Discord.version}\nEnmap: v5.8.4\`\`\``,true)
                         .addField("🤖 System -- Stats",`\`\`\`yml\nOS: ${os.platform()} | Debian\nCPU: ${os.cpus().map((i) => `${i.model}`)[0]}\nCPU Usage: ${percent.toFixed(2)} %\nRAM Usage: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB\nArch: ${os.arch()}\`\`\``)
                         .addField("👑 Developer", `\`\`\`yml\nName: ✗Julius Ulee✗#5323\nID: [385442265302302721]\`\`\``, true)
+                        .setImage("https://discord.c99.nl/widget/theme-2/385442265302302721.png")
         .setTimestamp()
         .setFooter(ee.footertext, ee.footericon);
                     tempmsg.edit({
