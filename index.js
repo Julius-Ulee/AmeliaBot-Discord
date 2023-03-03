@@ -75,7 +75,7 @@ client.distube = new DisTube(client, {
     liveBuffer: 60000,
     dlChunkSize: 1024 * 1024 * 64,
   },
-  youtubeDL: false,
+  youtubeDL: true,
   updateYouTubeDL: true,
   customFilters: filters,
   plugins: [
