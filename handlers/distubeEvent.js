@@ -562,8 +562,8 @@ module.exports = (client) => {
     if (newQueue.autoplay) {
       autoplay = autoplay.setStyle('SECONDARY')
     }
-    let songloop = new MessageButton().setStyle('SUCCESS').setCustomId('6').setEmoji(`🔁`).setLabel(`Song`)
-    let queueloop = new MessageButton().setStyle('SUCCESS').setCustomId('7').setEmoji(`🔂`).setLabel(`Queue`)
+    let songloop = new MessageButton().setStyle('SUCCESS').setCustomId('6').setEmoji(`🔂`).setLabel(`Song`)
+    let queueloop = new MessageButton().setStyle('SUCCESS').setCustomId('7').setEmoji(`🔁`).setLabel(`Queue`)
     let forward = new MessageButton().setStyle('PRIMARY').setCustomId('8').setEmoji('⏩').setLabel(`+10 Sec`)
     let rewind = new MessageButton().setStyle('PRIMARY').setCustomId('9').setEmoji('⏪').setLabel(`-10 Sec`)
     let lyrics = new MessageButton().setStyle('PRIMARY').setCustomId('10').setEmoji('📝').setLabel(`Lyrics`).setDisabled();
