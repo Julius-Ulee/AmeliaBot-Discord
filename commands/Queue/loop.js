@@ -104,13 +104,13 @@ module.exports = {
 					message.reply({
 						embeds: [new MessageEmbed()
 						  .setColor(ee.color)
-						  .setDescription(`🔁 Enabled the __Song__-Loop ||(Disabled the \`Queue-Loop\`)||`)]
+						  .setDescription(`🔂 Enabled the __Song__-Loop ||(Disabled the \`Queue-Loop\`)||`)]
 						})
 				} else {
 					message.reply({
 						embeds: [new MessageEmbed()
 						  .setColor(ee.color)
-						  .setDescription(`🔂 Enabled the __Queue__-Loop! ||(Disabled the \`Song-Loop\`)||`)]
+						  .setDescription(`🔁 Enabled the __Queue__-Loop! ||(Disabled the \`Song-Loop\`)||`)]
 						})
 				}
 			} catch (e) {
