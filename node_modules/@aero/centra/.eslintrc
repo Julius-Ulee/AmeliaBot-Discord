@@ -1,6 +1,0 @@
-{
-	"extends": "@aero",
-	"rules": {
-		"no-prototype-builtins": "off"
-	}
-}
