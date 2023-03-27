@@ -1,0 +1,14 @@
+{
+    "website" : {
+      "support": "https://discord.gg/VzUR95y",
+      "domain": "https://ameliabot.dev"
+    },
+    "config": {
+        "http": {
+          "port": 80
+        },
+        "callback": "https://ameliabot.dev/callback",
+        "clientID": "706346679263035392",
+        "secret": "j30n9p1QmIL8D082qo5cV64TmcQCKbab"
+    }
+  }
