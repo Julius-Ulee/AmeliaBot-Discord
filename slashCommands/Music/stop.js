@@ -59,7 +59,9 @@ module.exports = {
 					interaction.reply({
 						embeds: [new MessageEmbed()
 						  .setColor(ee.color)
-						  .setDescription(`⏹ Stopped playing and left the Channel!`)]
+						  .setDescription(`⏹ Stopped playing and left the Channel!\n\n**Interested in ${client.user.username}?**\nPlease support us by [donating](https://saweria.co/AmeliaBotDiscord) to keep the bot active even longer`)
+            .setImage('https://media.discordapp.net/attachments/899286227432398849/1008732061294674030/amelia_banner.jpg?width=960&height=308')
+            .setFooter('UwU❤️ :)')]
 					})
 				}
 				if (check_if_dj(client, member, newQueue.songs[0])) {
