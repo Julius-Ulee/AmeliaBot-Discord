@@ -42,7 +42,7 @@ module.exports = {
           .setColor(ee.color)
           .setAuthor(`Donate ${client.user.username}`,ee.footericon)
           .setDescription(`Hey! ${message.author}, Donate if you want the ${client.user.username}bot to be active\nSaweria: https://saweria.co/AmeliaBotDiscord
-BTC: \`1QBGLcyApogJMZxSBQ6yhu4HmNGX4dB1cK\`
+BTC: ||1QBGLcyApogJMZxSBQ6yhu4HmNGX4dB1cK||
 \nDon't forget to leave your discord name or id in the message.`)
           .setImage('https://media.discordapp.net/attachments/899286227432398849/1008732061294674030/amelia_banner.jpg?width=960&height=308')
           .setFooter(`Generous donation, Thank you.❤️ :)`)
