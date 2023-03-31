@@ -44,7 +44,7 @@ const client = new Discord.Client({
         type: config.status.type, 
         url: config.status.url
       },
-      status: "online",
+      status: "dnd",
     },
 });
 
