@@ -13,5 +13,24 @@
       "type": "PLAYING",
       "url": "https://twitch.tv/#"
    },
-  "loadSlashsGlobal": true, "_COMMENT_": "Set it to true, when your Slash Commands are ready, false loads instant true loads slow but stable! (GLOBAL/GUILD COMMANDS, DISCORD DOCS!)"
+  "loadSlashsGlobal": true, "_COMMENT_": "Set it to true, when your Slash Commands are ready, false loads instant true loads slow but stable! (GLOBAL/GUILD COMMANDS, DISCORD DOCS!)",
+  "slashCommandsDirs": [{
+			"Folder": "Info", "CmdName": "info",
+			"CmdDescription": "Grant specific Information about something!"
+	},{
+			"Folder": "Settings", "CmdName": "settings",
+			"CmdDescription": "Adjust the Settings of the Bot!"
+	},{
+			"Folder": "Music", "CmdName": "music",
+			"CmdDescription": "Playing/Queuing Music"
+	},{
+			"Folder": "Queue", "CmdName": "queue",
+			"CmdDescription": "Queue Commands"
+	},{
+			"Folder": "Song", "CmdName": "song",
+			"CmdDescription": "Song specific Commands"
+	},{     
+		"Folder": "Filter", "CmdName": "filter",
+		"CmdDescription": "Add Filters to your Music"
+	}]
 }
