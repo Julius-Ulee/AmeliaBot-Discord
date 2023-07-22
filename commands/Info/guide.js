@@ -42,10 +42,10 @@ module.exports = {
         embeds: [new MessageEmbed()
           .setColor(ee.color)
           .setAuthor(`${client.user.username} Guide`,ee.footericon)
-          .setDescription(`${message.author}, First steps when just inserting ${client.user.username}\n\nStep 1: Enable \`AutoResume\`.
-Step 2: Set Access Roles Using \`dj\` Command.
-Step 3: Set \`defaultFilter\` If you want to be desable visit our website or use the command.
-Step 4: Setting up \`botchat\`, so that bots do not carelessly appear on any channel such as public chat.
+          .setDescription(`${message.author}, First steps when just inserting ${client.user.username}\n\n\`Step 1\`: Enable the mandatory \`AutoResume\`.
+\`Step 2\`: Set Access Roles Using \`dj\` Command.
+\`Step 3\`: Set \`defaultFilter\` If you want to be desable visit our website or use the command.
+\`Step 4\`: Setting up \`botchat\`, so that bots do not carelessly appear on any channel such as public chat.
 \nIf you are still confused, use the \`@${client.user.username} help <command>\`.`)
           .setImage('https://media.discordapp.net/attachments/899286227432398849/1008732061294674030/amelia_banner.jpg?width=960&height=308')
           .setTimestamp()
