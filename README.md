@@ -24,7 +24,7 @@
 > - And more!
 ***
 
-## Installation Guide (Hosting)
+## 📥Installation Guide (Hosting)
 
 > 🖖 [**Repl.it Fork**](https://replit.com/@UzumekiUlee/Amelia)
 > 
@@ -45,7 +45,7 @@
 > - ` 7. ` `node .` to start the Bot
 ***
 
-## Slash Commands Information
+## ❗Slash Commands Information
 
 > To add a Subcommand create a Folder in `./slashCommands`
 
